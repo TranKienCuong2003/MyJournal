@@ -116,7 +116,7 @@ if (!$post) {
             <button type="submit" class="btn btn-secondary">Gửi bình luận</button>
         </form>
         <div class="mt-3">
-            <?php
+            <?php 
             // Lấy bình luận cho bài viết này
             $comment_stmt = $db->prepare("SELECT * FROM comments WHERE post_id = :post_id");
             $comment_stmt->bindParam(':post_id', $post['id'], PDO::PARAM_INT);
