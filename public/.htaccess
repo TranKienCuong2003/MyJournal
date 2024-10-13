@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^register$ index.php?route=register [L]
+RewriteRule ^login$ index.php?route=login [L]
+RewriteRule ^logout$ index.php?route=logout [L]
