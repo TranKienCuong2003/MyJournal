@@ -22,7 +22,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MyJournal.git
+   git clone https://github.com/TranKienCuong2003/MyJournal.git
    ```
 2. Navigate to the project directory:
    ```bash
